@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width" />
 
         <link href="../stylesheets/style-tables.css" rel="stylesheet" />
-        <script src="../scripts/script-tables.js" defer></script>
     </head>
     <body>
         <h1>Tables in HTML</h1>
@@ -28,10 +27,17 @@
             </tr>
         </table>
 
+
         <table>
             <caption>
                 List of office workers
             </caption>
+
+            <colgroup>
+                <col class="row-id" />
+                <col span="2" class="row-name" />
+                <col />
+            </colgroup>
 
             <thead>
                 <tr>
