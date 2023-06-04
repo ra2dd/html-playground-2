@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Working with tables</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+
+        <link href="../stylesheets/style-tables.css" rel="stylesheet" />
+        <script src="../scripts/script-tables.js" defer></script>
+    </head>
+    <body>
+        <h1>Tables in HTML</h1>
+
+        <table>
+            <tr>
+                <td>First cell</td>
+                <td>Second cell</td>
+            </tr>
+
+            <tr>
+                <td>Thrid cell</td>
+                <td>Fourth cell</td>
+            </tr>
+
+            <tr>
+                <td>Thrid row</td>
+                <td>Sixth cell</td>
+            </tr>
+        </table>
+
+        <table>
+            <caption>
+                List of office workers
+            </caption>
+
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Surname</th>
+                    <th scope="col">Department</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Office1</td>
+                    <td>Worker1</td>
+                    <td>Sales</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Office2</td>
+                    <td>Worker2</td>
+                    <td>Operations</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Office3</td>
+                    <td>Worker3</td>
+                    <td>Hiring</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Office4</td>
+                    <td>Worker4</td>
+                    <td>Sales</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">5</th>
+                    <td colspan="2">Team 1</td>
+                    <td>Marketing</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">6</th>
+                    <td rowspan="2" colspan="2">Department 1</td>
+                    <td rowspan="2">Accounting</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">7</th>
+                </tr>
+            </tbody>
+
+            <tfoot>
+
+            </tfoot>
+        </table>
+    </body>
+</html>
