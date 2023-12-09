@@ -1,4 +1,49 @@
-body
-{
-    background-color: yellow;
+html {
+  font-family: -apple-system, 'Segoe UI';
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(195, 23%, 90%);
+  color: hsl(195, 23%, 5%);
+  margin: 1rem 0.5rem;
+  min-height: 90vh;
+}
+
+.content {
+  min-width: 12rem;
+  max-width: 40rem;
+  max-height: fit-content;
+}
+
+.heading {
+  margin-bottom: 2rem;
+}
+
+dl dt {
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+  color: hsl(195, 23%, 25%)
+}
+
+dl dd {
+  all: unset;
+  display: block;
+  margin-bottom: 2rem;
+  line-height: 1.75rem;
+}
+
+dl dd:has(+ dd) {
+  margin-bottom: 1rem;
+}
+
+dl dd:has(+ blockquote) {
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  margin-bottom: 2rem;
 }
