@@ -19,6 +19,10 @@ body {
   max-height: fit-content;
 }
 
+.content > div {
+  margin-top: 2rem;
+}
+
 .heading {
   margin-bottom: 2rem;
 }
