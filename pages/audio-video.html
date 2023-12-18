@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Audio and video</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+
+        <link href="../stylesheets/main.css" rel="stylesheet" />
+    </head>
+    <body>
+      <main class="content">
+        <video
+          controls
+          width="640"
+          height="360"
+          muted
+          preload="auto"
+          poster="../media/example_poster.jpg">
+          <source src="../media/example_video.mp4" type="video/mp4" />
+          <!-- <track 
+            kind="subtitles" src="../media/example_subtitles.vtt" 
+            srclang="en" label="English" /> -->
+          <p>
+            Your browser doesn't support this video.
+            Here is the
+            <a href="../media/example_video.mp4">
+              link to the video
+            </a> instead.
+          </p>
+        </video>
+
+        <audio
+          controls>
+          <source src="../media/example_audio.mp3" type="audio/mp3" />
+          <p>
+            Your browser doesn't support this audio.
+            Here is the
+            <a href="../media/example_audio.mp3">
+              Link to the audio
+            </a> instead.
+          </p>
+        </audio>
+      </main>
+    </body>
+</html>
